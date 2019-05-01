@@ -1,0 +1,17 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>NBA</title>
+        <link rel="stylesheet" href="{% static 'css/stats.css' %}">
+ 
+    </head>
+    <body>
+        <h1>NBA</h1>
+        <nav>
+            <a href="/teams">Teams</a>
+        </nav>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
